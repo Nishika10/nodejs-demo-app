@@ -83,7 +83,8 @@ This automates building, testing, and deploying your app.
 
 Here are some screenshots of the Node.js Demo App running:
 
-![App Running Locally](image/Screenshot1.png)
+![App Running Locally](image/Screenshot.png)
+
 
 
 
