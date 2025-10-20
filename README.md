@@ -44,8 +44,7 @@ npm start
 
 2. Run with Docker:
 ```bash
-docker build -t demo-app .
-docker run -p 3000:3000 demo-app
+docker run --rm -d -p 8080:8080 --name nodejs-app nishika10/nodejs-demo-app:latest
 ```
 
 - Open your browser and go to: http://localhost:3000
@@ -84,6 +83,7 @@ This automates building, testing, and deploying your app.
 Here are some screenshots of the Node.js Demo App running:
 
 ![App Running Locally](image/Screenshot.png)
+
 
 
 
